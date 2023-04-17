@@ -360,8 +360,8 @@ font-family: var(--primary-font);
 .about-team{
   padding-top: 32px;
   padding-bottom: 32px;
-  padding-right: 16px;
-  padding-left: 16px;
+  padding-right: 0px;
+  padding-left: 0px;
   border-top-left-radius: 0px;
   border-top-right-radius: 0px;
   border-bottom-right-radius: 4px;
@@ -385,11 +385,15 @@ font-family: var(--primary-font);
   border-radius: 0px 0px 4px 4px;
 
   background-color: var(--color-white);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16),
+  0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .foto-style:hover,
 .foto-style:focus{
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px 
+  rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -448,6 +452,7 @@ color: var(--color-navy-blue);
 
   width: 168px;
   height: 88px;
+
   border: 1px solid #8E8F99;
   border-radius: 4px;
   color: var(--color-light-slate);
@@ -455,12 +460,12 @@ color: var(--color-navy-blue);
 
 .clients-link:hover,
 .clients-link:focus{
-  color: var(--color-ocean);
   border-color: var(--color-ocean);
+  color: var(--color-ocean);
 }
 
 .clients-icon{
-fill: var(--color-ocean);
+  fill: currentColor;
 }
 
 
