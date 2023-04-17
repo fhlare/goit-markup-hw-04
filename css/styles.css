@@ -289,7 +289,6 @@ font-family: var(--primary-font);
     justify-content: center;
     margin-bottom: 8px;
     
-    width: 266px;
     height: 112px;
     border: 1px solid transparent;
     background-color: var(--color-cloud);
